@@ -24,7 +24,7 @@ export const Card: React.FC<cardProps> = ({ setScreen, countScore, score }) => {
   return (
     <div className="card">
       <div>
-        <h2>Question # {count + 1}/10</h2>
+        <h2>Question # {count + 1}/20</h2>
         <h5>{Questions[count].Question}</h5>
       </div>
       <div className="options">
