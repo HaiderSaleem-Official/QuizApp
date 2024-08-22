@@ -18,7 +18,7 @@ const RetakeCard: React.FC<IRetakeCard> = ({
 
   return (
     <div className="card2">
-      <h3>You Scored {score}/100 in this Quiz</h3>
+      <h3>You Scored {score}/200 in this Quiz</h3>
       <button onClick={handleClick} className="button1">
         Retake
       </button>
